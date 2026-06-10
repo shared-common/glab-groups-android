@@ -3,7 +3,7 @@ name: android-group-sync
 
 "on":
   schedule:
-    - cron: "5 11,23 * * *"
+    - cron: "5 13 1-31/2 * *"
   workflow_dispatch:
 
 permissions: {}
